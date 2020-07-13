@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.Roles", "Authentication.Roles\Authentication.Roles.csproj", "{A2CC81F0-771C-4999-9D53-8D50091C14C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Roles", "Authentication.Roles\Authentication.Roles.csproj", "{A2CC81F0-771C-4999-9D53-8D50091C14C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Basics", "Authorization.Basics\Authorization.Basics.csproj", "{F24BA44A-C8EA-43CB-BBE1-D09018045D0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization.Basics", "Authorization.Basics\Authorization.Basics.csproj", "{F24BA44A-C8EA-43CB-BBE1-D09018045D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Database", "Authorization.Database\Authorization.Database.csproj", "{10C9CEFA-8824-4F97-8214-029951CD7AAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F24BA44A-C8EA-43CB-BBE1-D09018045D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F24BA44A-C8EA-43CB-BBE1-D09018045D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F24BA44A-C8EA-43CB-BBE1-D09018045D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C9CEFA-8824-4F97-8214-029951CD7AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C9CEFA-8824-4F97-8214-029951CD7AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C9CEFA-8824-4F97-8214-029951CD7AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C9CEFA-8824-4F97-8214-029951CD7AAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
