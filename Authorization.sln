@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Roles", "Aut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization.Basics", "Authorization.Basics\Authorization.Basics.csproj", "{F24BA44A-C8EA-43CB-BBE1-D09018045D0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Database", "Authorization.Database\Authorization.Database.csproj", "{10C9CEFA-8824-4F97-8214-029951CD7AAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization.Database", "Authorization.Database\Authorization.Database.csproj", "{10C9CEFA-8824-4F97-8214-029951CD7AAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.FacebookDemo", "Authorization.FacebookDemo\Authorization.FacebookDemo.csproj", "{27891451-DF00-45AF-AD25-F0950695D2DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{10C9CEFA-8824-4F97-8214-029951CD7AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10C9CEFA-8824-4F97-8214-029951CD7AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10C9CEFA-8824-4F97-8214-029951CD7AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27891451-DF00-45AF-AD25-F0950695D2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27891451-DF00-45AF-AD25-F0950695D2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27891451-DF00-45AF-AD25-F0950695D2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27891451-DF00-45AF-AD25-F0950695D2DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
