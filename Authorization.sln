@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization.Basics", "Aut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization.Database", "Authorization.Database\Authorization.Database.csproj", "{10C9CEFA-8824-4F97-8214-029951CD7AAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.FacebookDemo", "Authorization.FacebookDemo\Authorization.FacebookDemo.csproj", "{27891451-DF00-45AF-AD25-F0950695D2DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization.FacebookDemo", "Authorization.FacebookDemo\Authorization.FacebookDemo.csproj", "{27891451-DF00-45AF-AD25-F0950695D2DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.JwtBearer", "Authorization.JwtBearer\Authorization.JwtBearer.csproj", "{3F99DA66-BA7F-4770-97CE-489DC0591E8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{27891451-DF00-45AF-AD25-F0950695D2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27891451-DF00-45AF-AD25-F0950695D2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27891451-DF00-45AF-AD25-F0950695D2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F99DA66-BA7F-4770-97CE-489DC0591E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F99DA66-BA7F-4770-97CE-489DC0591E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F99DA66-BA7F-4770-97CE-489DC0591E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F99DA66-BA7F-4770-97CE-489DC0591E8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
